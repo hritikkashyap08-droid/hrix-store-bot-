@@ -22,7 +22,7 @@ server_thread.daemon = True
 server_thread.start()
 
 # Aapka Sahi Telegram Bot Token
-TOKEN = '8809123081:AAFsGG-i-qzzof-buot91gJTMZ86L1bxFGM'
+TOKEN = '8809123081:AAFsGG-i-qzzof-buot91gJTMZ86LlbxFGM'
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
