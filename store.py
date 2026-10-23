@@ -21,13 +21,13 @@ server_thread = threading.Thread(target=run_server)
 server_thread.daemon = True
 server_thread.start()
 
-# Aapka Telegram Bot Token
-TOKEN = '8809123081:AAFsGG-i-q...'
+# Aapka Sahi Telegram Bot Token
+TOKEN = '8809123081:AAFsGG-i-qzzof-buot91gJTMZ86L1bxFGM'
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-    bot.reply_to(message, "Welcome to HRIX Store! आपका बॉट सफलतापूर्वक चालू हो गया है।")
+    bot.reply_to(message, "Welcome to HRIX Store! Aapka bot safalpurvak chalu ho gaya hai.")
 
 # Bot ko chalu rakhne ke liye
 bot.infinity_polling()
